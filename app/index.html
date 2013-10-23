@@ -1,35 +1,68 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>My AngularJS App</title>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/eggplant/jquery-ui.min.css"/>
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"/>
+  <meta charset="utf-8">
+  <title>Steamduck Server</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/eggplant/jquery-ui.min.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
 </head>
 <body>
 
-<div ng-app="app">
-    <slider
-            min="0"
-            max="250"
-            step="10"
-            ng-model="sliderValue"
-            ranges='[
-    	{"from": 0, "to" :100, "color": "red"},
-    	{"from": 100, "to" :150, "color": "blue"},
-    	{"from": 150, "to" : 250, "color":"green"}
-    	]'>
+<div class="duckcontent" ng-app="app" ng-controller="FrontController">
+  <h4 style="margin-top: 10px;" class="ui purple huge header">
+    Steamduck Server
+  </h4>
+  <p>Welcome to my site. There are many like it but his one is mine. If you're feeling particularily stalky you can check up on the hobby projects I'm working on. Even the code is usually available on Github. Enjoy!</p>
 
-    </slider>
+  <div class="ui horizontal purple icon divider">
+    <i class="circular folder purple icon"></i>
+  </div>
 
-    <div ng-show="sliderValue" class='alert alert-info sliderValue'>
-        {{ sliderValue }}
+  <div style="margin:10px;">
+    <div class="ui three connected items">
+      <div class="row">
+        <div class="item" ng-click="openBotProject()">
+          <div class="content">
+            <div class="name">IRC Bot</div>
+            <p class="description">Just a hastily thrown up irc bot that responds to very basic commands. It does have an (almost) functional rpg brawl game though so there's that...</p>
+          </div>
+        </div>
+
+        <div class="item" ng-click="openSiteProject()">
+          <div class="content">
+            <div class="name">The Site</div>
+            <p class="description">My own private workbench where I can rejoice in the wonders of AngularJS and Semantic UI.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="content">
+            <div class="name">Raspberry Pi</div>
+            <p class="description">Node.js? Check.</br>Pre-loaded with ssh, Git and java? Check.</br>Low consumption? Double check!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="ui horizontal purple icon divider">
+    <i class="circular folder open purple icon"></i>
+  </div>
+
+  <div class="ui segment more" ng-hide="hidden" ng-animate="'fade'">
+    <p>Stuff about the thing you just clicked...</p>
+  </div>
+
+
 </div>
+
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
-<script src="lib/angular/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
 <script src="js/directives.js"></script>
+<script src="js/controllers.js"></script>
 </body>
 </html>
