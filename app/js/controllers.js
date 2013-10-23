@@ -6,7 +6,7 @@
 
   app.controller('FrontController', function($scope) {
     $scope.hidden = true;
-    return $scope.openBotProject = function() {
+    return $scope.openProject = function() {
       return $scope.hidden = !$scope.hidden;
     };
   });
