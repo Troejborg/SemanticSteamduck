@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b6a29-aeee-46d3-9be0-43415b99678a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/basic.icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/basic.icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/basic.icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/icons.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/basic.icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/semantic.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/directives.js" afterPath="$PROJECT_DIR$/app/js/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-    </list>
-    <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/angular-seed.iml" afterPath="$PROJECT_DIR$/.idea/angular-seed.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="" />
     <ignored path="angular-seed.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382559236400" ignored="false" />
@@ -42,7 +21,6 @@
     <file path="/a.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555766562" ignored="false" />
     <file path="/a.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555767752" ignored="false" />
     <file path="/a.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555775041" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382559358242" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,9 +82,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="46" selection-start="2207" selection-end="2207" vertical-scroll-proportion="-16.25">
+            <state line="54" column="46" selection-start="2215" selection-end="2215" vertical-scroll-proportion="-16.25">
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -310,6 +288,7 @@
       <recent name="D:\Git\AngularSliderDirective\scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="D:\Git\AngularSliderDirective\app\lib" />
     </key>
   </component>
@@ -539,9 +518,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="46" selection-start="2207" selection-end="2207" vertical-scroll-proportion="-16.25">
+        <state line="54" column="46" selection-start="2215" selection-end="2215" vertical-scroll-proportion="-16.25">
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
