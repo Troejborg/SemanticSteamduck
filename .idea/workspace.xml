@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b6a29-aeee-46d3-9be0-43415b99678a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.coffee" afterPath="$PROJECT_DIR$/app/js/controllers.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="" />
     <ignored path="angular-seed.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382559236400" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382593756216" ignored="false" />
     <file path="/partial1.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1372806436903" ignored="false" />
     <file path="/directives.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1372887266857" ignored="false" />
-    <file path="/index.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382560449012" ignored="false" />
+    <file path="/index.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382595398525" ignored="false" />
     <file path="/controllers.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382557417415" ignored="false" />
     <file path="/README.md" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1372887117637" ignored="false" />
     <file path="/app.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382554427186" ignored="false" />
@@ -22,7 +20,15 @@
     <file path="/a.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555766562" ignored="false" />
     <file path="/a.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555767752" ignored="false" />
     <file path="/a.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555775041" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382560468811" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382595561169" ignored="false" />
+    <file path="/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382593807711" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/controllers/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382593811358" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/silverpuffin.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382594601547" ignored="false" />
+    <file path="/silverpuffin.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382594601547" ignored="false" />
+    <file path="/main.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382594609591" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/css/main.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382594610416" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/interaction/infiniteScroll.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382594626009" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/interaction/infiniteScroll.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382594626752" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +89,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="50" selection-start="1776" selection-end="1776" vertical-scroll-proportion="-16.875">
+            <state line="71" column="30" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.5289256">
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.093457945">
+            <state line="4" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="1" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,8 +154,8 @@
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/js/controllers.coffee" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -218,6 +242,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-seed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SemanticSteamduck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -230,7 +272,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../anywhere/anywhere/core" />
     <property name="FullScreen" value="false" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -469,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="1" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
@@ -490,20 +525,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="50" selection-start="1776" selection-end="1776" vertical-scroll-proportion="-16.875">
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="4" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.093457945">
+        <state line="50" column="1" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="30" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.5289256">
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
