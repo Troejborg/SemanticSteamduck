@@ -10,64 +10,24 @@
 </head>
 <body>
 
-<div class="duckcontent" ng-app="app" ng-controller="FrontController">
+<div class="duckcontent" ng-app="app">
   <h4 style="margin-top: 10px;" class="ui purple huge header">
     Steamduck Server
   </h4>
 
   <div class="ui purple inverted menu">
-    <a class="active item">
+    <a class="active item" href="#/home">
       <i class="home icon"></i> Home
     </a>
-    <a class="item">
-      <i class="twitter icon"></i> Twitter
+    <a class="item" href="#/twitter">
+      <i class="bullseye icon"></i> IRC Ranks
     </a>
     <a class="item">
       <i class="user icon"></i> Friends
     </a>
   </div>
 
-  <p>Welcome to my site. There are many like it but his one is mine. If you're feeling particularily stalky you can check up on the hobby projects I'm working on. Even the code is usually available on Github. Enjoy!</p>
-
-  <div class="ui horizontal purple icon divider">
-    <i class="circular folder purple icon"></i>
-  </div>
-
-  <div style="margin:10px;">
-    <div class="ui three connected items">
-      <div class="row">
-        <div class="item" ng-click="openProject()">
-          <div class="content">
-            <div class="name">IRC Bot</div>
-            <p class="description">Just a hastily thrown together irc bot that responds to very basic commands. It does have an (almost) functional rpg brawl game though so there's that...</p>
-          </div>
-        </div>
-
-        <div class="item" ng-click="openProject()">
-          <div class="content">
-            <div class="name">The Site</div>
-            <p class="description">My own private workbench where I can rejoice in the wonders of AngularJS and Semantic UI.</p>
-          </div>
-        </div>
-
-        <div class="item" ng-click="openProject()">
-          <div class="content">
-            <div class="name">Raspberry Pi</div>
-            <p class="description">Node.js? Check.</br>Pre-loaded with ssh, Git and java? Check.</br>Low consumption? Double check!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui horizontal purple icon divider">
-    <i class="circular folder open purple icon"></i>
-  </div>
-
-  <div class="ui segment more" ng-hide="hidden" ng-animate="'fade'">
-    <p>Stuff about the thing you just clicked...</p>
-  </div>
+  <div ng-view style="padding:10px;"></div>
 
   <div class="ui right floated">
     <a href="https://twitter.com/RonnieTroj" class="twitter-follow-button" data-show-count="false">Follow @RonnieTroj</a>
@@ -79,7 +39,9 @@
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
-<script src="app/js/directives.js"></script>
+<script src="http://code.angularjs.org/1.2.0rc1/angular-route.min.js"></script>
+<script src='app/lib/jquery.transit.min.js'></script>
+<script src="app/js/app.js"></script>
 <script src="app/js/controllers.js"></script>
 </body>
 </html>
