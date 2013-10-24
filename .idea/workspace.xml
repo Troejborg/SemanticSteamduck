@@ -20,7 +20,7 @@
     <file path="/a.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555766562" ignored="false" />
     <file path="/a.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555767752" ignored="false" />
     <file path="/a.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555775041" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382595561169" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382596244278" ignored="false" />
     <file path="/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382593807711" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/controllers/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382593811358" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/silverpuffin.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382594601547" ignored="false" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="30" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.5289256">
+            <state line="71" column="30" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.6">
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -548,7 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="30" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.5289256">
+        <state line="71" column="30" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.6">
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
