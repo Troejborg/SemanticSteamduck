@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b6a29-aeee-46d3-9be0-43415b99678a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/app.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/irc_rankings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/jquery.transit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/services.coffee" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/partials/partial1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/blink.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/slider.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.coffee" afterPath="$PROJECT_DIR$/app/js/controllers.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.coffee" afterPath="$PROJECT_DIR$/app/js/app.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
     </list>
     <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="" />
     <ignored path="angular-seed.iws" />
@@ -54,6 +41,7 @@
     <file path="/services.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382643492237" ignored="false" />
     <file path="/home.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382647822959" ignored="false" />
     <file path="/irc_rankings.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382649354086" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382649465738" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,10 +137,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="50" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+            <state line="5" column="46" selection-start="427" selection-end="427" vertical-scroll-proportion="0.12077295">
               <folding />
             </state>
           </provider>
@@ -167,10 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="irc_rankings.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="irc_rankings.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="29" selection-start="878" selection-end="878" vertical-scroll-proportion="0.9229452">
+            <state line="42" column="29" selection-start="878" selection-end="878" vertical-scroll-proportion="-22.458334">
               <folding />
             </state>
           </provider>
@@ -228,13 +216,13 @@
         <option value="$PROJECT_DIR$/app/css/jquery.transit.min.js" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/js/directives.js" />
-        <option value="$PROJECT_DIR$/app/js/app.coffee" />
         <option value="$PROJECT_DIR$/app/js/services.coffee" />
         <option value="$PROJECT_DIR$/app/js/controllers.coffee" />
         <option value="$PROJECT_DIR$/app/partials/tweetfeed.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/partials/home.html" />
         <option value="$PROJECT_DIR$/app/partials/irc_rankings.html" />
+        <option value="$PROJECT_DIR$/app/js/app.coffee" />
       </list>
     </option>
   </component>
@@ -622,17 +610,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="31" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1382649075000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1382649075000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/home.html'...}" />
-            <marker date="1382649075000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/tweetfeed.html'...}" />
+            <marker date="1382649457000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382649457000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/home.html'...}" />
+            <marker date="1382649457000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/tweetfeed.html'...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +672,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="878" selection-end="878" vertical-scroll-proportion="0.9229452">
+        <state line="42" column="29" selection-start="878" selection-end="878" vertical-scroll-proportion="-22.458334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="46" selection-start="427" selection-end="427" vertical-scroll-proportion="0.12077295">
           <folding />
         </state>
       </provider>

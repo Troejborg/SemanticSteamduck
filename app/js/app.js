@@ -11,7 +11,7 @@
         controller: 'TweetController'
       });
       return $routeProvider.otherwise({
-        redirectTo: '/view1'
+        redirectTo: '/home'
       });
     }
   ]);
