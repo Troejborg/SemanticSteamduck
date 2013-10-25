@@ -4,6 +4,8 @@
     <list default="true" id="0f4b6a29-aeee-46d3-9be0-43415b99678a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.coffee" afterPath="$PROJECT_DIR$/app/js/app.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="" />
     <ignored path="angular-seed.iws" />
@@ -21,27 +23,38 @@
     <file path="/a.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555766562" ignored="false" />
     <file path="/a.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555767752" ignored="false" />
     <file path="/a.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382555775041" ignored="false" />
-    <file path="/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612871431" ignored="false" />
-    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/controllers/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382619492535" ignored="false" />
-    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/silverpuffin.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382619511845" ignored="false" />
-    <file path="/silverpuffin.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382619509247" ignored="false" />
+    <file path="/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382699418255" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/controllers/ListController.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382701220397" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/silverpuffin.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382699061477" ignored="false" />
+    <file path="/silverpuffin.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382699062613" ignored="false" />
     <file path="/main.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612433554" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/css/main.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612702510" ignored="false" />
-    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/interaction/infiniteScroll.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382608473865" ignored="false" />
-    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/interaction/infiniteScroll.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382608473865" ignored="false" />
-    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/controllers/ListController.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382608519894" ignored="false" />
-    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/index.ftl" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382608239580" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/interaction/infiniteScroll.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382702303714" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/interaction/infiniteScroll.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382702304187" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/controllers/ListController.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382701221014" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/index.ftl" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382694890677" ignored="false" />
     <file path="/infiniteScroll.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382608462861" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/css/lists.less" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612701007" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/css/lists.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612702133" ignored="false" />
     <file path="/lists.less" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612700612" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/src/com/cetrea/anywhere/endpoints/Configurator.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382620698734" ignored="false" />
-    <file path="/a.dummy" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382620852864" ignored="false" />
+    <file path="/a.dummy" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382683294433" ignored="false" />
     <file path="/tweetfeed.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382648543660" ignored="false" />
     <file path="/services.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382643492237" ignored="false" />
     <file path="/home.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382647822959" ignored="false" />
     <file path="/irc_rankings.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382649354086" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382649465738" ignored="false" />
+    <file path="/index.ftl" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382684802602" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/lib/jquery/transit/jquery.transit.min.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382682603042" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/lib/transit/jquery.transit.min.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382682933589" ignored="false" />
+    <file path="/__dummy.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382683624726" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/layout/ElementWatcher.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382692041169" ignored="false" />
+    <file path="/ElementWatcher.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382692155285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/layout/RenderWatcher.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382701454994" ignored="false" />
+    <file path="/RenderWatcher.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382701316596" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/app/directives/layout/RenderWatcher.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382701454994" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/lib/angularjs1/0/8/angular.min.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382694387455" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/dev/listwidget/assets/dev/listwidget/views/listwidget.ftl" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382703476063" ignored="false" />
+    <file path="/listwidget.ftl" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382702629784" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="729" selection-end="733" vertical-scroll-proportion="-11.875">
+            <state line="39" column="73" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.6855792">
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -118,7 +131,11 @@
         <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="39" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1382647461000" expanded="true" signature="92:1401" placeholder="..." />
+                <marker date="1382647461000" expanded="true" signature="409:1090" placeholder="..." />
+                <marker date="1382647461000" expanded="true" signature="486:634" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +154,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="46" selection-start="427" selection-end="427" vertical-scroll-proportion="0.12077295">
-              <folding />
+            <state line="4" column="32" selection-start="291" selection-end="299" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1382649520000" expanded="true" signature="126:433" placeholder="[...]" />
+                <marker date="1382649520000" expanded="true" signature="167:431" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,17 +239,17 @@
         <option value="$PROJECT_DIR$/app/js/services.coffee" />
         <option value="$PROJECT_DIR$/app/js/controllers.coffee" />
         <option value="$PROJECT_DIR$/app/partials/tweetfeed.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/partials/home.html" />
         <option value="$PROJECT_DIR$/app/partials/irc_rankings.html" />
         <option value="$PROJECT_DIR$/app/js/app.coffee" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="792" />
+    <option name="width" value="1680" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -472,13 +492,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="792" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35620052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,7 +514,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20229556" sideWeight="0.67113096" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17258263" sideWeight="0.6437995" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4017857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -580,7 +600,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="7281" selection-start="7507" selection-end="7507" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,9 +630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="31" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1382649457000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1382649457000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/home.html'...}" />
-            <marker date="1382649457000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/tweetfeed.html'...}" />
+            <marker date="1382649521000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382649521000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/home.html'...}" />
+            <marker date="1382649521000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'partials/tweetfeed.html'...}" />
           </folding>
         </state>
       </provider>
@@ -649,16 +669,10 @@
     <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="39" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="729" selection-end="733" vertical-scroll-proportion="-11.875">
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1382647461000" expanded="true" signature="92:1401" placeholder="..." />
+            <marker date="1382647461000" expanded="true" signature="409:1090" placeholder="..." />
+            <marker date="1382647461000" expanded="true" signature="486:634" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -679,8 +693,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="427" selection-end="427" vertical-scroll-proportion="0.12077295">
-          <folding />
+        <state line="4" column="32" selection-start="291" selection-end="299" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1382649520000" expanded="true" signature="126:433" placeholder="[...]" />
+            <marker date="1382649520000" expanded="true" signature="167:431" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="73" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.6855792">
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

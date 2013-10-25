@@ -6,7 +6,7 @@
         templateUrl: 'app/partials/home.html',
         controller: 'HomeController'
       });
-      $routeProvider.when('/twitter', {
+      $routeProvider.when('/ircranks', {
         templateUrl: 'app/partials/irc_rankings.html',
         controller: 'TweetController'
       });
