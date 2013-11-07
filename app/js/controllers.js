@@ -24,7 +24,7 @@
     return $scope.init = function(value) {
       var ref;
       $scope.value = "";
-      ref = new Firebase("https://steamduck.firebaseio.com/");
+      ref = new Firebase("https://steamduck.firebaseio.com/steamduck");
       return angularFire(ref, $scope, 'value');
     };
   });

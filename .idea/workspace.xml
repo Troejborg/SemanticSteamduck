@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b6a29-aeee-46d3-9be0-43415b99678a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.coffee" afterPath="$PROJECT_DIR$/app/js/app.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.coffee" afterPath="$PROJECT_DIR$/app/js/controllers.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/irc_rankings.html" afterPath="$PROJECT_DIR$/app/partials/irc_rankings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="" />
     <ignored path="angular-seed.iws" />
@@ -284,11 +278,11 @@
       <file leaf-file-name="controllers.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="57" selection-start="593" selection-end="593" vertical-scroll-proportion="0.52734375">
+            <state line="18" column="66" selection-start="602" selection-end="602" vertical-scroll-proportion="0.52734375">
               <folding>
-                <marker date="1383834883000" expanded="true" signature="99:427" placeholder="..." />
-                <marker date="1383834883000" expanded="true" signature="195:274" placeholder="..." />
-                <marker date="1383834883000" expanded="true" signature="287:356" placeholder="..." />
+                <marker date="1383835123000" expanded="true" signature="99:427" placeholder="..." />
+                <marker date="1383835123000" expanded="true" signature="195:274" placeholder="..." />
+                <marker date="1383835123000" expanded="true" signature="287:356" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -581,9 +575,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="798" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20353982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20353982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -764,11 +758,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="593" selection-end="593" vertical-scroll-proportion="0.52734375">
+        <state line="18" column="66" selection-start="602" selection-end="602" vertical-scroll-proportion="0.52734375">
           <folding>
-            <marker date="1383834883000" expanded="true" signature="99:427" placeholder="..." />
-            <marker date="1383834883000" expanded="true" signature="195:274" placeholder="..." />
-            <marker date="1383834883000" expanded="true" signature="287:356" placeholder="..." />
+            <marker date="1383835123000" expanded="true" signature="99:427" placeholder="..." />
+            <marker date="1383835123000" expanded="true" signature="195:274" placeholder="..." />
+            <marker date="1383835123000" expanded="true" signature="287:356" placeholder="..." />
           </folding>
         </state>
       </provider>

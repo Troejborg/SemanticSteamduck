@@ -16,7 +16,7 @@ app.controller 'HomeController', ($scope) ->
 app.controller 'RankController', ($scope, angularFire) ->
   $scope.init = (value) ->
     $scope.value = ""
-    ref = new Firebase("https://steamduck.firebaseio.com/")
+    ref = new Firebase("https://steamduck.firebaseio.com/steamduck")
     angularFire(ref, $scope, 'value')
 
 
