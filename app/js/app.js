@@ -8,7 +8,7 @@
       });
       $routeProvider.when('/ircranks', {
         templateUrl: 'app/partials/irc_rankings.html',
-        controller: 'TweetController'
+        controller: 'RankController'
       });
       return $routeProvider.otherwise({
         redirectTo: '/home'
