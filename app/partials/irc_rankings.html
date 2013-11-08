@@ -7,6 +7,7 @@
 <table class="ui table segment">
   <thead>
   <tr class="neutral">
+    <th>#</th>
     <th>Name</th>
     <th>Wins</th>
     <th>Losses</th>
@@ -14,7 +15,8 @@
   </tr></thead>
   <tbody>
 
-  <tr ng-animate="'animate'" ng-repeat="player in players|orderBy:'-level'" class="neutral">
+  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}" ng-repeat="player in players|orderBy:'-level'" class="neutral">
+    <td>{{$index+1}}</td>
     <td>{{player.name}}</td>
     <td>{{player.wins}}</td>
     <td>{{player.losses}}</td>
