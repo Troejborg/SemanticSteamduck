@@ -1,5 +1,4 @@
 <p>This has yet to be implemented but eventually this page will show the wins and losses of the matches played at #ITHivemind on Freenode(yea, we hang on IRC - sue me!)</p>
-<div ng-init="init(value)">firebase value is : {{value}}</div>
 
 <div class="ui horizontal purple icon divider">
   <i class="circular bullseye purple icon"></i>
@@ -9,16 +8,17 @@
   <thead>
   <tr class="neutral">
     <th>Name</th>
-    <th>Level</th>
     <th>Wins</th>
     <th>Losses</th>
+    <th>Level</th>
   </tr></thead>
   <tbody>
-  <tr class="positive">
-    <td>DummyPerson</td>
-    <td>13</td>
-    <td>19</td>
-    <td>7</td>
+
+  <tr ng-animate="'animate'" ng-repeat="player in players|orderBy:'-level'" class="neutral">
+    <td>{{player.name}}</td>
+    <td>{{player.wins}}</td>
+    <td>{{player.losses}}</td>
+    <td>{{player.level}}</td>
   </tr>
 
   </tbody>

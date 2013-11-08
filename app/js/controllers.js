@@ -21,12 +21,10 @@
   });
 
   app.controller('RankController', function($scope, angularFire) {
-    return $scope.init = function(value) {
-      var ref;
-      $scope.value = "";
-      ref = new Firebase("https://steamduck.firebaseio.com/steamduck");
-      return angularFire(ref, $scope, 'value');
-    };
+    var ref;
+    $scope.players = [];
+    ref = new Firebase("https://steamduck.firebaseio.com/players");
+    return angularFire(ref, $scope, 'players');
   });
 
 }).call(this);

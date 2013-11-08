@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b6a29-aeee-46d3-9be0-43415b99678a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.coffee" afterPath="$PROJECT_DIR$/app/js/controllers.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/irc_rankings.html" afterPath="$PROJECT_DIR$/app/partials/irc_rankings.html" />
     </list>
     <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="" />
     <ignored path="angular-seed.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383719806088" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383894866684" ignored="false" />
     <file path="/partial1.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1372806436903" ignored="false" />
     <file path="/directives.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1372887266857" ignored="false" />
     <file path="/index.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382649202526" ignored="false" />
@@ -63,7 +65,7 @@
     <file path="/Player.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383200405841" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/Game/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383116681973" ignored="false" />
     <file path="/fragment.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383827855311" ignored="false" />
-    <file path="/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382973260081" ignored="false" />
+    <file path="/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383894961468" ignored="false" />
     <file path="/TestBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383200764736" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/silverpuffin.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382949793816" ignored="false" />
     <file path="/__dummy.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382947463152" ignored="false" />
@@ -104,7 +106,7 @@
     <file path="$PROJECT_DIR$/../IRCBot/src/META-INF/MANIFEST.MF" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383299224593" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/main/TestBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298881393" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/AxeWeapon.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/game/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/game/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383894997962" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/GameDataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383805808755" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/Player.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/SwordWeapon.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
@@ -242,7 +244,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="90" selection-start="1978" selection-end="1978" vertical-scroll-proportion="-19.291666">
+            <state line="45" column="37" selection-start="2016" selection-end="2016" vertical-scroll-proportion="-28.125">
               <folding />
             </state>
           </provider>
@@ -257,10 +259,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="irc_rankings.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="irc_rankings.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="47" selection-start="220" selection-end="220" vertical-scroll-proportion="-0.625">
+            <state line="28" column="6" selection-start="790" selection-end="790" vertical-scroll-proportion="0.685155">
               <folding />
             </state>
           </provider>
@@ -275,14 +277,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controllers.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="66" selection-start="602" selection-end="602" vertical-scroll-proportion="0.52734375">
+            <state line="19" column="35" selection-start="603" selection-end="610" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1383835123000" expanded="true" signature="99:427" placeholder="..." />
-                <marker date="1383835123000" expanded="true" signature="195:274" placeholder="..." />
-                <marker date="1383835123000" expanded="true" signature="287:356" placeholder="..." />
+                <marker date="1383894770000" expanded="true" signature="99:427" placeholder="..." />
+                <marker date="1383894770000" expanded="true" signature="195:274" placeholder="..." />
+                <marker date="1383894770000" expanded="true" signature="287:356" placeholder="..." />
+                <marker date="1383894770000" expanded="true" signature="487:612" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -314,7 +317,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/css/app.css" />
         <option value="$PROJECT_DIR$/app/css/jquery.transit.min.js" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/js/directives.js" />
@@ -322,8 +324,9 @@
         <option value="$PROJECT_DIR$/app/partials/tweetfeed.html" />
         <option value="$PROJECT_DIR$/app/partials/home.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/partials/irc_rankings.html" />
         <option value="$PROJECT_DIR$/app/js/app.coffee" />
+        <option value="$PROJECT_DIR$/app/css/app.css" />
+        <option value="$PROJECT_DIR$/app/partials/irc_rankings.html" />
         <option value="$PROJECT_DIR$/app/js/controllers.coffee" />
       </list>
     </option>
@@ -577,7 +580,7 @@
     <frame x="0" y="22" width="1440" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20353982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20353982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -595,7 +598,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20229556" sideWeight="0.79646015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20229556" sideWeight="0.59882003" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40117994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -691,11 +694,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="86" selection-end="355" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="31" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
@@ -728,9 +726,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="1" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="37" selection-start="2016" selection-end="2016" vertical-scroll-proportion="-28.125">
           <folding />
         </state>
       </provider>
@@ -742,28 +754,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="90" selection-start="1978" selection-end="1978" vertical-scroll-proportion="-19.291666">
-          <folding />
+        <state line="19" column="35" selection-start="603" selection-end="610" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1383894770000" expanded="true" signature="99:427" placeholder="..." />
+            <marker date="1383894770000" expanded="true" signature="195:274" placeholder="..." />
+            <marker date="1383894770000" expanded="true" signature="287:356" placeholder="..." />
+            <marker date="1383894770000" expanded="true" signature="487:612" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="220" selection-end="220" vertical-scroll-proportion="-0.625">
+        <state line="28" column="6" selection-start="790" selection-end="790" vertical-scroll-proportion="0.685155">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="66" selection-start="602" selection-end="602" vertical-scroll-proportion="0.52734375">
-          <folding>
-            <marker date="1383835123000" expanded="true" signature="99:427" placeholder="..." />
-            <marker date="1383835123000" expanded="true" signature="195:274" placeholder="..." />
-            <marker date="1383835123000" expanded="true" signature="287:356" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
