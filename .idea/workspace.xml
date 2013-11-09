@@ -35,11 +35,11 @@
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/css/lists.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612702133" ignored="false" />
     <file path="/lists.less" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382612700612" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/src/com/cetrea/anywhere/endpoints/Configurator.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383903056484" ignored="false" />
-    <file path="/a.dummy" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383903372714" ignored="false" />
+    <file path="/a.dummy" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383914731247" ignored="false" />
     <file path="/tweetfeed.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382648543660" ignored="false" />
     <file path="/services.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382643492237" ignored="false" />
     <file path="/home.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382647822959" ignored="false" />
-    <file path="/irc_rankings.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383912819673" ignored="false" />
+    <file path="/irc_rankings.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384034260000" ignored="false" />
     <file path="/index.ftl" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382946153524" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/lib/jquery/transit/jquery.transit.min.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382682603042" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/lib/transit/jquery.transit.min.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382682933589" ignored="false" />
@@ -59,10 +59,10 @@
     <file path="$PROJECT_DIR$/../IRCBot/src/Commands/BattleCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/Commands/DefaultCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383116681973" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/Game/Player.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383200406493" ignored="false" />
-    <file path="/Player.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383200405841" ignored="false" />
+    <file path="/Player.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384026750792" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/Game/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383116681973" ignored="false" />
-    <file path="/fragment.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383827855311" ignored="false" />
-    <file path="/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383894961468" ignored="false" />
+    <file path="/fragment.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384033679433" ignored="false" />
+    <file path="/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384036430331" ignored="false" />
     <file path="/TestBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383200764736" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/components/anywhere-silverpuffin/src/assets/silverpuffin.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382949793816" ignored="false" />
     <file path="/__dummy.css" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382947463152" ignored="false" />
@@ -87,7 +87,7 @@
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/test/java/src/com/cetrea/anywhere/JettyDev.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383904386413" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/src/com/cetrea/anywhere/configuration/ConfigurationResolver.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382965167514" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/DataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382990030727" ignored="false" />
-    <file path="/DataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382989593891" ignored="false" />
+    <file path="/DataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384024034856" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/Game/GameDataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383139788982" ignored="false" />
     <file path="/Activities.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383663739161" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/src/com/cetrea/anywhere/endpoints/Activities.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383663980397" ignored="false" />
@@ -100,21 +100,21 @@
     <file path="$PROJECT_DIR$/../IRCBot/.idea/workspace.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383204063682" ignored="false" />
     <file path="/JettyDev.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383904375800" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/Main/TestBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298783279" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/META-INF/MANIFEST.MF" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383299224593" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/META-INF/MANIFEST.MF" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384017358480" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/main/TestBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298881393" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/AxeWeapon.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/game/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383894997962" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/game/GameDataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383805808755" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/game/Player.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/game/BattleGame.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384036431719" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/game/GameDataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384016535807" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/game/Player.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384026751997" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/SwordWeapon.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/Weapon.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/MaceWeapon.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298878041" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/commands/CommandFactory.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298881393" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/commands/Response.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298881393" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/commands/BattleCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298881393" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/commands/BattleCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384027275773" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/commands/DefaultCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298881393" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/commands/Command.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298882030" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/main/SteamduckBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383299224593" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/main/SteamduckBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384025322022" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/src/com/cetrea/anywhere/AnywhereService.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383312982885" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/WebContent/WEB-INF/resources/static/desktop/js/printing.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383547453175" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/WebContent/WEB-INF/resources/static/desktop/js/printing.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383547453175" ignored="false" />
@@ -188,6 +188,14 @@
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/WebContent/WEB-INF/resources/static/desktop/js/configurator/configurator.controllers.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383904803853" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/WebContent/WEB-INF/resources/static/desktop/js/configurator/configurator.controllers.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383904802435" ignored="false" />
     <file path="/configurator.controllers.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383904803240" ignored="false" />
+    <file path="/MANIFEST.MF" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383917964807" ignored="false" />
+    <file path="$PROJECT_DIR$/../../anywhere/anywhere/test/build.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383918190369" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/build.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383918402996" ignored="false" />
+    <file path="/build.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383918394000" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/game/DataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384025316274" ignored="false" />
+    <file path="/SteamduckBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384024610004" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384025151868" ignored="false" />
+    <file path="/BattleCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384027136796" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +277,7 @@
       <file leaf-file-name="irc_rankings.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="67" selection-start="528" selection-end="528" vertical-scroll-proportion="0.41598696">
+            <state line="19" column="23" selection-start="642" selection-end="642" vertical-scroll-proportion="0.4649266">
               <folding />
             </state>
           </provider>
@@ -602,7 +610,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="798" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20353982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -793,7 +801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="67" selection-start="528" selection-end="528" vertical-scroll-proportion="0.41598696">
+        <state line="19" column="23" selection-start="642" selection-end="642" vertical-scroll-proportion="0.4649266">
           <folding />
         </state>
       </provider>
