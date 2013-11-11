@@ -1,4 +1,4 @@
-<p>This has yet to be implemented but eventually this page will show the wins and losses of the matches played at #ITHivemind on Freenode(yea, we hang on IRC - sue me!)</p>
+<p>This shows the wins and losses of the matches recorded by steamduck at #ITHivemind on Freenode(yea, we hang on IRC - sue me!)</p>
 
 <div class="ui horizontal purple icon divider">
   <i class="circular bullseye purple icon"></i>
@@ -13,7 +13,7 @@
     <th>Level</th>
   </tr></thead>
   <tbody>
-  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}" ng-repeat="player in players|orderBy:Level:reverse" class="neutral">
+  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderObjectBy:'Wins'" class="neutral">
     <td>{{$index+1}}</td>
     <td>{{player.PlayerName}}</td>
     <td>{{player.Wins}}</td>

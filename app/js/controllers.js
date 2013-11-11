@@ -23,8 +23,31 @@
   app.controller('RankController', function($scope, angularFire) {
     var ref;
     $scope.players;
+    $scope.$watch('players',function(){
+          console.log($scope.players)
+      });
     ref = new Firebase("https://steamduck.firebaseio.com/players");
     return angularFire(ref, $scope, 'players');
   });
 
+    app.filter('orderObjectBy', function(){
+        return function(input, attribute) {
+            if (!angular.isObject(input)) return input;
+
+            var array = [];
+            for(var objectKey in input) {
+                array.push(input[objectKey]);
+            }
+
+            array.sort(function(a, b){
+                a = parseInt(a[attribute]);
+                b = parseInt(b[attribute]);
+                return b - a;
+            });
+            return array;
+        }
+    });
+
 }).call(this);
+
+
