@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b6a29-aeee-46d3-9be0-43415b99678a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.coffee" afterPath="$PROJECT_DIR$/app/js/controllers.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/home.html" afterPath="$PROJECT_DIR$/app/partials/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/irc_rankings.html" afterPath="$PROJECT_DIR$/app/partials/irc_rankings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2ff782ef-beb1-4581-b9f4-38703c236847" name="stuff" comment="" />
     <ignored path="angular-seed.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383894866684" ignored="false" />
+    <file path="/Dummy.txt" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384157532170" ignored="false" />
     <file path="/partial1.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1372806436903" ignored="false" />
     <file path="/directives.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1372887266857" ignored="false" />
     <file path="/index.html" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1382649202526" ignored="false" />
@@ -119,7 +114,7 @@
     <file path="$PROJECT_DIR$/../IRCBot/src/commands/BattleCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384037396220" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/commands/DefaultCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298881393" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/commands/Command.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383298882030" ignored="false" />
-    <file path="$PROJECT_DIR$/../IRCBot/src/main/SteamduckBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384052050826" ignored="false" />
+    <file path="$PROJECT_DIR$/../IRCBot/src/main/SteamduckBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384157788174" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/src/com/cetrea/anywhere/AnywhereService.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383312982885" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/WebContent/WEB-INF/resources/static/desktop/js/printing.coffee" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383547453175" ignored="false" />
     <file path="$PROJECT_DIR$/../../anywhere/anywhere/core/WebContent/WEB-INF/resources/static/desktop/js/printing.js" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1383547453175" ignored="false" />
@@ -198,7 +193,7 @@
     <file path="$PROJECT_DIR$/../IRCBot/build.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384052140543" ignored="false" />
     <file path="/build.xml" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384052136366" ignored="false" />
     <file path="$PROJECT_DIR$/../IRCBot/src/game/DataProvider.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384025316274" ignored="false" />
-    <file path="/SteamduckBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384052012212" ignored="false" />
+    <file path="/SteamduckBot.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384157778981" ignored="false" />
     <file path="/File Header.txt.ft" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384025151868" ignored="false" />
     <file path="/BattleCommand.java" changelist="0f4b6a29-aeee-46d3-9be0-43415b99678a" time="1384037388452" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -272,19 +267,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="104" selection-start="492" selection-end="492" vertical-scroll-proportion="0.2092257">
+            <state line="9" column="104" selection-start="492" selection-end="492" vertical-scroll-proportion="-5.2916665">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="irc_rankings.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="irc_rankings.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="107" selection-start="566" selection-end="566" vertical-scroll-proportion="-9.375">
+            <state line="15" column="119" selection-start="578" selection-end="578" vertical-scroll-proportion="0.37067544">
               <folding />
             </state>
           </provider>
@@ -302,7 +297,7 @@
       <file leaf-file-name="controllers.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="429" selection-end="608" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -343,8 +338,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/js/controllers.coffee" />
-        <option value="$PROJECT_DIR$/app/partials/irc_rankings.html" />
         <option value="$PROJECT_DIR$/app/partials/home.html" />
+        <option value="$PROJECT_DIR$/app/partials/irc_rankings.html" />
       </list>
     </option>
   </component>
@@ -617,7 +612,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="792" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20353982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -785,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="110" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
@@ -799,16 +787,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
+    <entry file="file://$PROJECT_DIR$/app/partials/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="107" selection-start="566" selection-end="566" vertical-scroll-proportion="-9.375">
+        <state line="9" column="104" selection-start="492" selection-end="492" vertical-scroll-proportion="-5.2916665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/home.html">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="104" selection-start="492" selection-end="492" vertical-scroll-proportion="0.2092257">
+        <state line="15" column="0" selection-start="429" selection-end="608" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/irc_rankings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="119" selection-start="578" selection-end="578" vertical-scroll-proportion="0.37067544">
           <folding />
         </state>
       </provider>

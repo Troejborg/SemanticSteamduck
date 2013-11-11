@@ -13,7 +13,7 @@
     <th>Level</th>
   </tr></thead>
   <tbody>
-  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}" ng-repeat="player in players|orderBy:'-Level'" class="neutral">
+  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}" ng-repeat="player in players|orderBy:Level:reverse" class="neutral">
     <td>{{$index+1}}</td>
     <td>{{player.PlayerName}}</td>
     <td>{{player.Wins}}</td>
