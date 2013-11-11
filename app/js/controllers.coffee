@@ -15,7 +15,8 @@ app.controller 'HomeController', ($scope) ->
 
 app.controller 'RankController', ($scope, angularFire) ->
 
-  $scope.players = []
+  $scope.players;
   ref = new Firebase("https://steamduck.firebaseio.com/players")
   angularFire(ref, $scope, 'players')
+
 

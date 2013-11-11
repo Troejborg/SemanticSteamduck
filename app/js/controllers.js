@@ -22,7 +22,7 @@
 
   app.controller('RankController', function($scope, angularFire) {
     var ref;
-    $scope.players = [];
+    $scope.players;
     ref = new Firebase("https://steamduck.firebaseio.com/players");
     return angularFire(ref, $scope, 'players');
   });
