@@ -18,4 +18,9 @@ app.controller 'RankController', ($scope, angularFire) ->
   ref = new Firebase("https://steamduck.firebaseio.com/players")
   angularFire(ref, $scope, 'players')
 
+app.controller 'FifaController', ($scope, angularFire) ->
+  $scope.msg
+  ref = new Firebase("https://steamduck.firebaseio.com/fifamsg")
+  angularFire(ref,$scope,'msg')
+
 

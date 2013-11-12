@@ -27,4 +27,11 @@
     return angularFire(ref, $scope, 'players');
   });
 
+  app.controller('FifaController', function($scope, angularFire) {
+    var ref;
+    $scope.msg;
+    ref = new Firebase("https://steamduck.firebaseio.com/fifamsg");
+    return angularFire(ref, $scope, 'msg');
+  });
+
 }).call(this);
