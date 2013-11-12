@@ -1,3 +1,5 @@
+app = angular.module('app.filters', [])
+
 app.filter "orderObjectBy", ->
   (input, attribute) ->
     return input  unless angular.isObject(input)
