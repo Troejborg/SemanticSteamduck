@@ -10,6 +10,10 @@
         templateUrl: 'app/partials/irc_rankings.html',
         controller: 'RankController'
       });
+      $routeProvider.when('/anders', {
+        templateUrl: 'app/partials/anders.html',
+        controller: 'FifaController'
+      });
       return $routeProvider.otherwise({
         redirectTo: '/home'
       });
