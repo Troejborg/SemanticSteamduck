@@ -5,19 +5,9 @@
   app = angular.module('app.controllers', ['firebase']);
 
   app.controller('HomeController', function($scope) {
-    var moreElement;
     $scope.piImage = "/app/img/rpi_logo.jpg";
     $scope.ircImage = "/app/img/robot_icon.png";
-    $scope.siteImage = "/app/img/angularjs.png";
-    moreElement = $(".more");
-    moreElement.css({
-      transformOrigin: 'center top',
-      perspective: '300px',
-      rotateX: '-90deg'
-    });
-    return $scope.openProject = function(e) {
-      return console.log("clicked" + e);
-    };
+    return $scope.siteImage = "/app/img/angularjs.png";
   });
 
   app.controller('RankController', function($scope, angularFire) {
