@@ -34,7 +34,7 @@
     ref = new Firebase("https://steamduck.firebaseio.com/fifamatches");
     angularFire(ref, $scope, 'matches');
     $scope.openModal = function() {
-      return $('.modal').modal('show');
+      return $('.modal').popup();
     };
     return $scope.submit = function() {
       return ref.push($scope.newMatch);

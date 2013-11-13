@@ -25,6 +25,6 @@ app.controller 'FifaController', ($scope, angularFire) ->
   angularFire(ref,$scope,'matches')
 
   $scope.openModal = () ->
-    $('.modal').modal('show')
+    $('.modal').popup()
   $scope.submit = () ->
     ref.push($scope.newMatch)

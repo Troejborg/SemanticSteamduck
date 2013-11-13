@@ -4,57 +4,59 @@
   <title></title>
 </head>
 <body>
-<div class="ui two column grid">
-  <a class="ui purple button" ng-click="openModal()">Submit New Match</a>
-  <div class="ui modal">
-    <div class="column">
-      <div class="ui fluid form segment">
-        <h3 class="ui header">Submit New Match</h3>
-        <div class="two fields">
-          <div class="field">
-            <label>Home Team</label>
-            <input ng-model="newMatch.hometeam" placeholder="Ronnie" type="text">
-          </div>
-          <div class="field">
-            <label>Away Team</label>
-            <input ng-model="newMatch.awayteam" placeholder="Anders" type="text">
-          </div>
-        </div>
-        <div class="field">
-          <label>Home Goals</label>
-          <input ng-model="newMatch.homegoals" placeholder="6" type="text">
-        </div>
-        <div class="field">
-          <label>Away Goals</label>
-          <input ng-model="newMatch.awaygoals" placeholder="0" type="text">
-        </div>
-        <div class="ui purple submit button" ng-click="submit()">Submit</div>
-      </div>
-    </div>
-  </div>
-
+<div class="ui modal">
   <div class="column">
     <div class="ui fluid form segment">
-      <h3 class="ui header">Latest Matches</h3>
-      <table class="ui table segment">
-        <thead>
-        <tr class="neutral">
-          <th>Home Team</th>
-          <th>Home Goals</th>
-          <th>Away Goals</th>
-          <th>Away Team</th>
-        </tr></thead>
-        <tbody>
-        <tr ng-repeat="match in matches" class="neutral">
-          <td ng-class="{true:'positive', false:'negative'}[match.homegoals > match.awaygoals]}">{{match.hometeam}}</td>
-          <td>{{match.homegoals}}</td>
-          <td>{{match.awaygoals}}</td>
-          <td>{{match.awayteam}}</td>
-        </tr>
-        </tbody>
-      </table>
+      <h3 class="ui header">Submit New Match</h3>
+      <div class="two fields">
+        <div class="field">
+          <label>Home Team</label>
+          <input ng-model="newMatch.hometeam" placeholder="Ronnie" type="text">
+        </div>
+        <div class="field">
+          <label>Away Team</label>
+          <input ng-model="newMatch.awayteam" placeholder="Anders" type="text">
+        </div>
+      </div>
+      <div class="field">
+        <label>Home Goals</label>
+        <input ng-model="newMatch.homegoals" placeholder="6" type="text">
+      </div>
+      <div class="field">
+        <label>Away Goals</label>
+        <input ng-model="newMatch.awaygoals" placeholder="0" type="text">
+      </div>
+      <div class="ui purple submit button" ng-click="submit()">Submit</div>
     </div>
   </div>
-</div></div>
+</div>
+  <h3 class="ui header">Latest Matches</h3>
+  <table class="ui table segment">
+    <thead>
+    <tr class="neutral">
+      <th>Home Team</th>
+      <th>Home Goals</th>
+      <th>Away Goals</th>
+      <th>Away Team</th>
+    </tr></thead>
+    <tbody>
+    <tr ng-repeat="match in matches" class="neutral">
+      <td>{{match.hometeam}}</td>
+      <td>{{match.homegoals}}</td>
+      <td>{{match.awaygoals}}</td>
+      <td>{{match.awayteam}}</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr><th colspan="4">
+      <a class="ui purple button" ng-click="openModal()">Submit New Match</a>
+    </th>
+    </tr></tfoot>
+  </table>
+
+<div class="ui horizontal purple icon divider">
+  <i class="circular user purple icon"></i>
+</div>
+
 </body>
 </html>
