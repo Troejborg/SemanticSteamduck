@@ -19,8 +19,12 @@ app.controller 'RankController', ($scope, angularFire) ->
   angularFire(ref, $scope, 'players')
 
 app.controller 'FifaController', ($scope, angularFire) ->
-  $scope.msg
-  ref = new Firebase("https://steamduck.firebaseio.com/fifamsg")
-  angularFire(ref,$scope,'msg')
+  $scope.newMatch
+  $scope.matches = new Array()
+  ref = new Firebase("https://steamduck.firebaseio.com/fifamatches")
+  angularFire(ref,$scope,'matches')
 
-
+  $scope.openModal = () ->
+    $('.modal').modal('show')
+  $scope.submit = () ->
+    ref.push($scope.newMatch)

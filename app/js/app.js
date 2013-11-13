@@ -10,8 +10,8 @@
         templateUrl: 'app/partials/irc_rankings.html',
         controller: 'RankController'
       });
-      $routeProvider.when('/anders', {
-        templateUrl: 'app/partials/anders.html',
+      $routeProvider.when('/fifa', {
+        templateUrl: 'app/partials/fifa.html',
         controller: 'FifaController'
       });
       return $routeProvider.otherwise({
