@@ -21,13 +21,77 @@
     var ref;
     $scope.newMatch;
     $scope.players = new Array();
-    ref = new Firebase("https://steamduck.firebaseio.com/fifaplayers");
-    angularFire(ref, $scope, 'players');
+    ref = new Firebase("https://steamduck.firebaseio.com/fifa");
+    angularFire(ref.child("players"), $scope, 'players');
     $scope.openModal = function() {
       return $(".modal").modal('show');
     };
     return $scope.submit = function() {
-      return ref.child('matches').push($scope.newMatch);
+      var addPlayerStats, didHomeWin, newPlayer, playerFound;
+      $scope.home.goals = parseInt($scope.home.goals);
+      $scope.away.goals = parseInt($scope.away.goals);
+      didHomeWin = $scope.home.goals - $scope.away.goals > 0 ? true : false;
+      $scope.home.goalsAgainst = $scope.away.goals;
+      $scope.away.goalsAgainst = $scope.home.goals;
+      addPlayerStats = function(player, newMatch, didWin) {
+        if (player.GoalsFor != null) {
+          player.GoalsFor += newMatch.goals;
+        } else {
+          player.GoalsFor = newMatch.goals;
+        }
+        if (player.GoalsAgainst != null) {
+          player.GoalsAgainst += newMatch.goalsAgainst;
+        } else {
+          player.GoalsAgainst = newMatch.goalsAgainst;
+        }
+        if (didWin) {
+          if (player.Wins != null) {
+            player.Wins += 1;
+          } else {
+            player.Wins = 1;
+          }
+          if (player.Points != null) {
+            return player.Points += 3;
+          } else {
+            return player.Points = 3;
+          }
+        } else {
+          if (player.Losses != null) {
+            return player.Losses += 1;
+          } else {
+            return player.Losses = 1;
+          }
+        }
+      };
+      playerFound = false;
+      $scope.players.forEach(function(player) {
+        if (player.PlayerName === $scope.home.name) {
+          addPlayerStats(player, $scope.home, didHomeWin);
+          return playerFound = true;
+        }
+      });
+      if (!playerFound) {
+        newPlayer = {};
+        newPlayer.PlayerName = $scope.home.name;
+        addPlayerStats(newPlayer, $scope.home, didHomeWin);
+        $scope.players.push(newPlayer);
+      }
+      playerFound = false;
+      $scope.players.forEach(function(player) {
+        if (player.PlayerName === $scope.away.name) {
+          addPlayerStats(player, $scope.away, !didHomeWin);
+          return playerFound = true;
+        }
+      });
+      if (!playerFound) {
+        newPlayer = {};
+        newPlayer.PlayerName = $scope.away.name;
+        addPlayerStats(newPlayer, $scope.away, !didHomeWin);
+        $scope.players.push(newPlayer);
+      }
+      $(".modal").modal('hide');
+      $scope.newMatch = [];
+      return playerFound = false;
     };
   });
 

@@ -11,31 +11,31 @@
       <div class="two fields">
         <div class="field">
           <label>Player #1</label>
-          <input ng-model="newMatch.homeplayer" placeholder="Ronnie" type="text">
+          <input ng-model="home.name" placeholder="Ronnie" type="text">
         </div>
         <div class="field">
           <label>Player #2</label>
-          <input ng-model="newMatch.awayplayer" placeholder="Anders" type="text">
+          <input ng-model="away.name" placeholder="Anders" type="text">
         </div>
       </div>
       <div class="two fields">
         <div class="field">
           <label>Player #1 Team</label>
-          <input ng-model="newMatch.hometeam" placeholder="Man Utd" type="text">
+          <input ng-model="home.team" placeholder="Man Utd" type="text">
         </div>
         <div class="field">
           <label>Player #2 Team</label>
-          <input ng-model="newMatch.awayteam" placeholder="FC Bayern" type="text">
+          <input ng-model="away.team" placeholder="FC Bayern" type="text">
         </div>
       </div>
       <div class="two fields">
         <div class="field">
           <label>Player #1 Goals</label>
-          <input ng-model="newMatch.homegoals" placeholder="4" type="text">
+          <input ng-model="home.goals" placeholder="4" type="text">
         </div>
         <div class="field">
           <label>Player #2 Goals</label>
-          <input ng-model="newMatch.awaygoals" placeholder="1" type="text">
+          <input ng-model="away.goals" placeholder="1" type="text">
         </div>
       </div>
       <div class="ui purple submit button" ng-click="submit()">Submit</div>
@@ -50,7 +50,6 @@
     <th>Name</th>
     <th>GP</th>
     <th>W</th>
-    <th>D</th>
     <th>L</th>
     <th>GF</th>
     <th>GA</th>
@@ -62,10 +61,9 @@
   <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderBy:'-Points'" class="neutral">
     <td>{{$index+1}}</td>
     <td>{{player.PlayerName}}</td>
-    <td>{{player.Played}}</td>
+    <td>{{player.Wins + player.Losses}}</td>
     <td>{{player.Wins}}</td>
     <td>{{player.Losses}}</td>
-    <td>{{player.Draws}}</td>
     <td>{{player.GoalsFor}}</td>
     <td>{{player.GoalsAgainst}}</td>
     <td>{{player.GoalsFor - player.GoalsAgainst}}</td>
