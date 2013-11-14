@@ -20,14 +20,14 @@
   app.controller('FifaController', function($scope, angularFire) {
     var ref;
     $scope.newMatch;
-    $scope.matches = new Array();
-    ref = new Firebase("https://steamduck.firebaseio.com/fifamatches");
-    angularFire(ref, $scope, 'matches');
+    $scope.players = new Array();
+    ref = new Firebase("https://steamduck.firebaseio.com/fifaplayers");
+    angularFire(ref, $scope, 'players');
     $scope.openModal = function() {
       return $(".modal").modal('show');
     };
     return $scope.submit = function() {
-      return ref.push($scope.newMatch);
+      return ref.child('matches').push($scope.newMatch);
     };
   });
 

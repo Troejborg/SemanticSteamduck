@@ -10,49 +10,74 @@
       <h3 class="ui header">Submit New Match</h3>
       <div class="two fields">
         <div class="field">
-          <label>Home Team</label>
-          <input ng-model="newMatch.hometeam" placeholder="Ronnie" type="text">
+          <label>Player #1</label>
+          <input ng-model="newMatch.homeplayer" placeholder="Ronnie" type="text">
         </div>
         <div class="field">
-          <label>Away Team</label>
-          <input ng-model="newMatch.awayteam" placeholder="Anders" type="text">
+          <label>Player #2</label>
+          <input ng-model="newMatch.awayplayer" placeholder="Anders" type="text">
         </div>
       </div>
-      <div class="field">
-        <label>Home Goals</label>
-        <input ng-model="newMatch.homegoals" placeholder="6" type="text">
+      <div class="two fields">
+        <div class="field">
+          <label>Player #1 Team</label>
+          <input ng-model="newMatch.hometeam" placeholder="Man Utd" type="text">
+        </div>
+        <div class="field">
+          <label>Player #2 Team</label>
+          <input ng-model="newMatch.awayteam" placeholder="FC Bayern" type="text">
+        </div>
       </div>
-      <div class="field">
-        <label>Away Goals</label>
-        <input ng-model="newMatch.awaygoals" placeholder="0" type="text">
+      <div class="two fields">
+        <div class="field">
+          <label>Player #1 Goals</label>
+          <input ng-model="newMatch.homegoals" placeholder="4" type="text">
+        </div>
+        <div class="field">
+          <label>Player #2 Goals</label>
+          <input ng-model="newMatch.awaygoals" placeholder="1" type="text">
+        </div>
       </div>
       <div class="ui purple submit button" ng-click="submit()">Submit</div>
     </div>
   </div>
 </div>
-  <h3 class="ui header">Latest Matches</h3>
-  <table class="ui table segment">
-    <thead>
-    <tr class="neutral">
-      <th>Home Team</th>
-      <th>Home Goals</th>
-      <th>Away Goals</th>
-      <th>Away Team</th>
-    </tr></thead>
-    <tbody>
-    <tr ng-repeat="match in matches" class="neutral">
-      <td>{{match.hometeam}}</td>
-      <td>{{match.homegoals}}</td>
-      <td>{{match.awaygoals}}</td>
-      <td>{{match.awayteam}}</td>
-    </tr>
-    </tbody>
-    <tfoot>
-    <tr><th colspan="4">
-      <a class="ui purple button" ng-click="openModal()">Submit New Match</a>
-    </th>
-    </tr></tfoot>
-  </table>
+<h3 class="ui header">Latest Matches</h3>
+<table class="ui table segment">
+  <thead>
+  <tr class="neutral">
+    <th>#</th>
+    <th>Name</th>
+    <th>GP</th>
+    <th>W</th>
+    <th>D</th>
+    <th>L</th>
+    <th>GF</th>
+    <th>GA</th>
+    <th>+/-</th>
+    <th>PTS</th>
+
+  </tr></thead>
+  <tbody>
+  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderBy:'Points'" class="neutral">
+    <td>{{$index+1}}</td>
+    <td>{{player.PlayerName}}</td>
+    <td>{{player.Played}}</td>
+    <td>{{player.Wins}}</td>
+    <td>{{player.Losses}}</td>
+    <td>{{player.Draws}}</td>
+    <td>{{player.GoalsFor}}</td>
+    <td>{{player.GoalsAgainst}}</td>
+    <td>{{player.Difference}}</td>
+    <td>{{player.Points}}</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  <tr><th colspan="10">
+    <a class="ui purple button" ng-click="openModal()">Submit New Match</a>
+  </th>
+  </tr></tfoot>
+</table>
 
 <div class="ui horizontal purple icon divider">
   <i class="circular user purple icon"></i>
