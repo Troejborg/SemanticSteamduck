@@ -51,23 +51,25 @@
     <th>GP</th>
     <th>W</th>
     <th>L</th>
+    <th>D</th>
     <th>GF</th>
     <th>GA</th>
     <th>+/-</th>
-    <th>PTS</th>
+    <th>WINPTC</th>
 
   </tr></thead>
   <tbody>
-  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderBy:'-Points'" class="neutral">
+  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderBy:'-WinPercentage'" class="neutral">
     <td>{{$index+1}}</td>
     <td>{{player.PlayerName}}</td>
-    <td>{{player.Wins + player.Losses}}</td>
+    <td>{{player.Played = player.Wins + player.Losses}}</td>
     <td>{{player.Wins}}</td>
     <td>{{player.Losses}}</td>
+    <td>{{player.Draw}}</td>
     <td>{{player.GoalsFor}}</td>
     <td>{{player.GoalsAgainst}}</td>
     <td>{{player.GoalsFor - player.GoalsAgainst}}</td>
-    <td>{{player.Points}}</td>
+    <td>{{player.WinPercentage = player.Wins / player.Played}}</td>
   </tr>
   </tbody>
   <tfoot>

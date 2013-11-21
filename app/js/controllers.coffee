@@ -6,24 +6,29 @@ app.controller 'HomeController', ($scope) ->
   $scope.siteImage = "/app/img/angularjs.png"
 
 app.controller 'RankController', ($scope, angularFire) ->
-  $scope.players
+  $scope.players = new Array()
   ref = new Firebase("https://steamduck.firebaseio.com/players")
   angularFire(ref, $scope, 'players')
 
 app.controller 'FifaController', ($scope, angularFire) ->
   $scope.newMatch
-  $scope.players = new Array()
+  $scope.players = {}
   ref = new Firebase("https://steamduck.firebaseio.com/fifa")
   angularFire(ref.child("players"),$scope,'players')
 
   $scope.openModal = () ->
     $(".modal").modal('show')
   $scope.submit = () ->
+    player = {} unless $scope.home.PlayerName in $scope.players
+
+
     $scope.home.goals = parseInt($scope.home.goals)
     $scope.away.goals = parseInt($scope.away.goals)
-    didHomeWin = if $scope.home.goals - $scope.away.goals > 0 then true else false
+    matchOutcome = $scope.home.goals - $scope.away.goals
+    winner = if matchOutcome == 0 then "draw" else if goalStatus > 0 then "home" else "away"
     $scope.home.goalsAgainst = $scope.away.goals
     $scope.away.goalsAgainst = $scope.home.goals
+    newPlayer = {}
 
     addPlayerStats = (player, newMatch, didWin) ->
       if player.GoalsFor? then player.GoalsFor += newMatch.goals else player.GoalsFor = newMatch.goals
@@ -33,28 +38,27 @@ app.controller 'FifaController', ($scope, angularFire) ->
         if player.Points? then player.Points += 3 else player.Points = 3
       else
         if player.Losses? then player.Losses +=1 else player.Losses = 1
+
     playerFound = false
     $scope.players.forEach (player) ->
-
       if player.PlayerName == $scope.home.name
-        addPlayerStats(player, $scope.home, didHomeWin)
+        addPlayerStats(player, $scope.home, winner)
         playerFound  = true
     unless playerFound
-      newPlayer = {}
       newPlayer.PlayerName = $scope.home.name
-      addPlayerStats(newPlayer, $scope.home, didHomeWin)
+      addPlayerStats(newPlayer, $scope.home, winner)
       $scope.players.push(newPlayer)
 
     playerFound = false
     $scope.players.forEach (player) ->
       if player.PlayerName == $scope.away.name
-        addPlayerStats(player, $scope.away, !didHomeWin)
+        addPlayerStats(player, $scope.away, winner)
         playerFound = true
     unless playerFound
-      newPlayer = {}
       newPlayer.PlayerName = $scope.away.name
       addPlayerStats(newPlayer, $scope.away, !didHomeWin)
       $scope.players.push(newPlayer)
+
     $(".modal").modal('hide')
-    $scope.newMatch = []
-    playerFound = false
+    $scope.home = {}
+    $scope.away = {}
