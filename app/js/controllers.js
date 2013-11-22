@@ -4,28 +4,25 @@
 
   app = angular.module('app.controllers', ['firebase']);
 
-  app.controller('MenuController', function($scope, $rootScope) {
+  app.controller('MenuController', function($scope) {
     return $scope.activeView = 'home';
   });
 
-  app.controller('HomeController', function($scope, $rootScope) {
-    $rootScope.activeView = "home";
+  app.controller('HomeController', function($scope) {
     $scope.piImage = "/app/img/rpi_logo.jpg";
     $scope.ircImage = "/app/img/robot_icon.png";
     return $scope.siteImage = "/app/img/angularjs.png";
   });
 
-  app.controller('RankController', function($scope, $rootScope, angularFire) {
+  app.controller('RankController', function($scope, angularFire) {
     var ref;
-    $rootScope.activeView = "rank";
     $scope.players = new Array();
     ref = new Firebase("https://steamduck.firebaseio.com/players");
     return angularFire(ref, $scope, 'players');
   });
 
-  app.controller('FifaController', function($scope, $rootScope, angularFire) {
-    var ref;
-    $rootScope.activeView = "fifa";
+  app.controller('FifaController', function($scope, angularFire) {
+    var addNewPlayer, addPlayerStats, ref;
     $scope.newMatch;
     $scope.players = [];
     $scope.matches = [];
@@ -35,23 +32,18 @@
     $scope.openModal = function() {
       return $(".modal").modal('show');
     };
-    return $scope.submit = function() {
-      var addNewPlayer, addPlayerStats, awayPlayerFound, goalStatus, homePlayerFound;
+    $scope.submit = function() {
+      var awayPlayerFound, goalStatus, homePlayerFound;
       goalStatus = $scope.home.goals - $scope.away.goals;
-      $scope.home.draw = 0;
-      $scope.away.draw = 0;
-      $scope.home.win = 0;
-      $scope.away.win = 0;
-      $scope.home.loss = 0;
-      $$scope.away.loss = 0;
+      $scope.home.draw = $scope.away.draw = $scope.home.win = $scope.away.win = $scope.home.loss = $scope.away.loss = 0;
       $scope.away.goalsAgainst = parseInt($scope.home.goals);
       $scope.home.goalsAgainst = parseInt($scope.away.goals);
       if (goalStatus === 0) {
         $scope.home.draw = $scope.away.draw = 1;
       } else if (goalStatus > 0) {
-        $scope.home.win = 1;
+        $scope.home.win = $scope.away.loss = 1;
       } else if (goalStatus < 0) {
-        $scope.away.win = 1;
+        $scope.away.win = $scope.home.loss = 1;
       }
       $scope.matches.push({
         "hometeam": $scope.home,
@@ -73,27 +65,27 @@
         addNewPlayer($scope.home);
       }
       if (!awayPlayerFound) {
-        addNewPlayer($scope.away);
+        return addNewPlayer($scope.away);
       }
-      addPlayerStats = function(player, playerStats) {
-        player.Draw += playerStats.draw;
-        player.Wins += playerStats.win;
-        player.Loss += playerStats.loss;
-        player.GoalsFor += playerStats.goals;
-        return player.GoalsAgainst += playerStats.goalsAgainst;
+    };
+    addPlayerStats = function(player, playerStats) {
+      player.Draw += playerStats.draw;
+      player.Wins += playerStats.win;
+      player.Loss += playerStats.loss;
+      player.GoalsFor += playerStats.goals;
+      return player.GoalsAgainst += playerStats.goalsAgainst;
+    };
+    return addNewPlayer = function(playerStats) {
+      var player;
+      player = {
+        "PlayerName": playerStats.name,
+        "Draw": playerStats.draw,
+        "Wins": playerStats.win,
+        "Loss": playerStats.loss,
+        "GoalsFor": playerStats.goals,
+        "GoalsAgainst": playerStats.goalsAgainst
       };
-      addNewPlayer = function(playerStats) {
-        var player;
-        player = {
-          "PlayerName": playerStats.name,
-          "Draw": playerStats.draw,
-          "Wins": playerStats.win,
-          "Loss": playerStats.loss,
-          "GoalsFor": playerStats.goals,
-          "GoalsAgainst": playerStats.goalsAgainst
-        };
-        return $scope.players.push(player);
-      };
+      $scope.players.push(player);
       $(".modal").modal('hide');
       $scope.home = {};
       return $scope.away = {};

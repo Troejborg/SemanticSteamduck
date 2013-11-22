@@ -4,6 +4,9 @@
 
   app = angular.module('app.services', []);
 
-  app.service;
+  app.service('testService', function() {
+    var activeView;
+    return activeView = 'home';
+  });
 
 }).call(this);

@@ -16,13 +16,13 @@
   </h4>
 
   <div ng-controller="MenuController" class="ui purple inverted menu">
-    <a class="item" ng-class="{'active': activeView == 'home'}" href="#/home">
+    <a class="item" ng-click="activeView = 'home'" ng-class="{'active': activeView == 'home'}" href="#/home">
       <i class="home icon"></i> Home
     </a>
-    <a class="item" ng-class="{'active': activeView == 'rank'}" href="#/ircranks">
+    <a class="item" ng-click="activeView = 'rank'" ng-class="{'active': activeView == 'rank'}" href="#/ircranks">
       <i class="bullseye icon"></i> IRC Ranks
     </a>
-    <a class="item" ng-class="{'active': activeView == 'fifa'}" href="#/fifa">
+    <a class="item" ng-click="activeView = 'fifa'" ng-class="{'active': activeView == 'fifa'}" href="#/fifa">
       <i class="user icon"></i> FIFA
     </a>
   </div>
