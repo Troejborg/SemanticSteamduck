@@ -41,46 +41,53 @@
       <div class="ui purple submit button" ng-click="submit()">Submit</div>
     </div>
   </div>
+
 </div>
-<h3 class="ui header">Latest Matches</h3>
-<table class="ui table segment">
-  <thead>
-  <tr class="neutral">
-    <th>#</th>
-    <th>Name</th>
-    <th>GP</th>
-    <th>W</th>
-    <th>L</th>
-    <th>D</th>
-    <th>GF</th>
-    <th>GA</th>
-    <th>+/-</th>
-    <th>PTS</th>
-    <th>PPG</th>
+<div class="ui grid">
+  <div class="eight wide column">
+    <h3 class="ui header">Latest Matches</h3>
+    <table class="ui table segment">
+      <thead>
+      <tr class="neutral">
+        <th>#</th>
+        <th>Name</th>
+        <th>GP</th>
+        <th>W</th>
+        <th>L</th>
+        <th>D</th>
+        <th>GF</th>
+        <th>GA</th>
+        <th>+/-</th>
+        <th>PTS</th>
+        <th>PPG</th>
 
-  </tr></thead>
-  <tbody>
-  <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderBy:'-PPG'" class="neutral">
-    <td>{{$index+1}}</td>
-    <td>{{player.PlayerName}}</td>
-    <td>{{player.Played = player.Wins + player.Losses + player.Draw}}</td>
-    <td>{{player.Wins}}</td>
-    <td>{{player.Losses}}</td>
-    <td>{{player.Draw}}</td>
-    <td>{{player.GoalsFor}}</td>
-    <td>{{player.GoalsAgainst}}</td>
-    <td>{{player.GoalsFor - player.GoalsAgainst}}</td>
-    <td>{{player.Points = player.Wins * 3 + player.Draw}}</td>
-    <td>{{player.PPG = (player.Points / player.Played).toFixed(2)}}</td>
-  </tr>
-  </tbody>
-  <tfoot>
-  <tr><th colspan="11">
-    <a class="ui purple button" ng-click="openModal()">Submit New Match</a>
-  </th>
-  </tr></tfoot>
-</table>
-
+      </tr></thead>
+      <tbody>
+      <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderBy:'-PPG'" class="neutral">
+        <td>{{$index+1}}</td>
+        <td>{{player.PlayerName}}</td>
+        <td>{{player.Played = player.Wins + player.Losses + player.Draw}}</td>
+        <td>{{player.Wins}}</td>
+        <td>{{player.Losses}}</td>
+        <td>{{player.Draw}}</td>
+        <td>{{player.GoalsFor}}</td>
+        <td>{{player.GoalsAgainst}}</td>
+        <td>{{player.GoalsFor - player.GoalsAgainst}}</td>
+        <td>{{player.Points = player.Wins * 3 + player.Draw}}</td>
+        <td>{{player.PPG = (player.Points / player.Played) | number}}</td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr><th colspan="11">
+        <a class="ui purple button" ng-click="openModal()">Submit New Match</a>
+      </th>
+      </tr></tfoot>
+    </table>
+  </div>
+  <div class="eight wide column">
+    <ui segment>stuff</ui>
+  </div>
+</div>
 <div class="ui horizontal purple icon divider">
   <i class="circular user purple icon"></i>
 </div>

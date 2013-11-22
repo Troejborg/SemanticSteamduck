@@ -15,14 +15,14 @@
     Steamduck Server
   </h4>
 
-  <div class="ui purple inverted menu">
-    <a class="active item" href="#/home">
+  <div ng-controller="MenuController" class="ui purple inverted menu">
+    <a class="item" ng-class="{'active': activeView == 'home'}" href="#/home">
       <i class="home icon"></i> Home
     </a>
-    <a class="item" href="#/ircranks">
+    <a class="item" ng-class="{'active': activeView == 'rank'}" href="#/ircranks">
       <i class="bullseye icon"></i> IRC Ranks
     </a>
-    <a class="item" href="#/fifa">
+    <a class="item" ng-class="{'active': activeView == 'fifa'}" href="#/fifa">
       <i class="user icon"></i> FIFA
     </a>
   </div>
