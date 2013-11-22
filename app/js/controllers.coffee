@@ -31,16 +31,17 @@ app.controller 'FifaController', ($scope, angularFire) ->
     homePlayerFound  = false
     awayPlayerFound  = false
     $scope.players.forEach (player) ->
-      player.Draw += if goalStatus == 0 then 1 else 0
       #find home player
       if player.PlayerName == $scope.home.name
         homePlayerFound  = true
+        player.Draw += if goalStatus == 0 then 1 else 0
         player.Wins += if goalStatus > 0 then 1 else 0
         player.Loss += if goalStatus < 0 then 1 else 0
         player.goalsFor += homePlayer.goalsFor
         player.goalsAgainst += homePlayer.goalsAgainst
       else if player.PlayerName == $scope.away.name
         awayPlayerFound  = true
+        player.Draw += if goalStatus == 0 then 1 else 0
         player.Wins += if goalStatus < 0 then 1 else 0
         player.Loss += if goalStatus > 0 then 1 else 0
         player.goalsFor += awayPlayer.goalsFor
