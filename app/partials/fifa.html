@@ -55,7 +55,8 @@
     <th>GF</th>
     <th>GA</th>
     <th>+/-</th>
-    <th>WINPTC</th>
+    <th>PTS</th>
+    <th>PPG</th>
 
   </tr></thead>
   <tbody>
@@ -69,7 +70,8 @@
     <td>{{player.GoalsFor}}</td>
     <td>{{player.GoalsAgainst}}</td>
     <td>{{player.GoalsFor - player.GoalsAgainst}}</td>
-    <td>{{player.WinPercentage = player.Wins / player.Played}}</td>
+    <td>{{player.Points = player.Wins * 3 + player.Draw}}</td>
+    <td>{{player.PPG = (player.Points / player.Played).toFixed(2)}}</td>
   </tr>
   </tbody>
   <tfoot>
