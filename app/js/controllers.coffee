@@ -60,8 +60,8 @@ app.controller 'FifaController', ($scope, angularFire) ->
       newHomePlayer.Wins = if goalStatus > 0 then 1 else 0
       newHomePlayer.Loss = if goalStatus < 0 then 1 else 0
       newHomePlayer.Draw = if goalStatus == 0 then 1 else 0
-      newHomePlayer.goalsFor += homePlayer.goalsFor
-      newHomePlayer.goalsAgainst += homePlayer.goalsAgainst
+      newHomePlayer.goalsFor = homePlayer.goalsFor
+      newHomePlayer.goalsAgainst = homePlayer.goalsAgainst
       $scope.players.push(newHomePlayer)
 #    $scope.home.goals = parseInt($scope.home.goals)
 #    $scope.away.goals = parseInt($scope.away.goals)

@@ -70,8 +70,8 @@
         newHomePlayer.Wins = goalStatus > 0 ? 1 : 0;
         newHomePlayer.Loss = goalStatus < 0 ? 1 : 0;
         newHomePlayer.Draw = goalStatus === 0 ? 1 : 0;
-        newHomePlayer.goalsFor += homePlayer.goalsFor;
-        newHomePlayer.goalsAgainst += homePlayer.goalsAgainst;
+        newHomePlayer.goalsFor = homePlayer.goalsFor;
+        newHomePlayer.goalsAgainst = homePlayer.goalsAgainst;
         $scope.players.push(newHomePlayer);
       }
       $(".modal").modal('hide');
