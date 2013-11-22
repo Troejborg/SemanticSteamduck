@@ -63,7 +63,7 @@
   <tr ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"  ng-repeat="player in players | orderBy:'-WinPercentage'" class="neutral">
     <td>{{$index+1}}</td>
     <td>{{player.PlayerName}}</td>
-    <td>{{player.Played = player.Wins + player.Losses}}</td>
+    <td>{{player.Played = player.Wins + player.Losses + player.Draw}}</td>
     <td>{{player.Wins}}</td>
     <td>{{player.Losses}}</td>
     <td>{{player.Draw}}</td>
