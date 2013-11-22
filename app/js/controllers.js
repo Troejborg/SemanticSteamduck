@@ -40,10 +40,7 @@
       homePlayerFound = false;
       awayPlayerFound = false;
       $scope.players.forEach(function(player) {
-        var _ref;
-        player.Draw += (_ref = goalStatus === 0) != null ? _ref : {
-          1: 0
-        };
+        player.Draw += goalStatus === 0 ? 1 : 0;
         if (player.PlayerName === $scope.home.name) {
           homePlayerFound = true;
           player.Wins += goalStatus > 0 ? 1 : 0;

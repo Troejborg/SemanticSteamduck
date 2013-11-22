@@ -31,7 +31,7 @@ app.controller 'FifaController', ($scope, angularFire) ->
     homePlayerFound  = false
     awayPlayerFound  = false
     $scope.players.forEach (player) ->
-      player.Draw += goalStatus == 0 ? 1 : 0
+      player.Draw += if goalStatus == 0 then 1 else 0
       #find home player
       if player.PlayerName == $scope.home.name
         homePlayerFound  = true
