@@ -26,9 +26,12 @@ app.controller 'FifaController', ($scope, angularFire) ->
     $(".modal").modal('show')
   $scope.submit = () ->
     goalStatus = $scope.home.goals - $scope.away.goals
+    # EVERYTHING IS ZERO
     $scope.home.draw = $scope.away.draw = $scope.home.win = $scope.away.win = $scope.home.loss = $scope.away.loss = 0
-    $scope.away.goalsAgainst = parseInt($scope.home.goals)
-    $scope.home.goalsAgainst = parseInt($scope.away.goals)
+    $scope.home.goals = parseInt($scope.home.goals)
+    $scope.away.goals = parseInt($scope.away.goals)
+    $scope.away.goalsAgainst = $scope.home.goals
+    $scope.home.goalsAgainst = $scope.away.goals
     if goalStatus == 0
       $scope.home.draw = $scope.away.draw = 1
     else if goalStatus > 0
@@ -70,6 +73,6 @@ app.controller 'FifaController', ($scope, angularFire) ->
 
     $scope.players.push player
 
-    $(".modal").modal('hide')
-    $scope.home = {}
-    $scope.away = {}
+  $(".modal").modal('hide')
+  $scope.home = {}
+  $scope.away = {}
