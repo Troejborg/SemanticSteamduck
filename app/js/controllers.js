@@ -66,8 +66,11 @@
         addNewPlayer($scope.home);
       }
       if (!awayPlayerFound) {
-        return addNewPlayer($scope.away);
+        addNewPlayer($scope.away);
       }
+      $(".modal").modal('hide');
+      $scope.home = {};
+      return $scope.away = {};
     };
     addPlayerStats = function(player, playerStats) {
       player.Draw += playerStats.draw;
@@ -76,7 +79,7 @@
       player.GoalsFor += playerStats.goals;
       return player.GoalsAgainst += playerStats.goalsAgainst;
     };
-    addNewPlayer = function(playerStats) {
+    return addNewPlayer = function(playerStats) {
       var player;
       player = {
         "PlayerName": playerStats.name,
@@ -88,9 +91,6 @@
       };
       return $scope.players.push(player);
     };
-    $(".modal").modal('hide');
-    $scope.home = {};
-    return $scope.away = {};
   });
 
 }).call(this);

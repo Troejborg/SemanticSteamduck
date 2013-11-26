@@ -54,6 +54,10 @@ app.controller 'FifaController', ($scope, angularFire) ->
     unless awayPlayerFound
       addNewPlayer($scope.away)
 
+    $(".modal").modal('hide')
+    $scope.home = {}
+    $scope.away = {}
+
   addPlayerStats = (player, playerStats) ->
     player.Draw += playerStats.draw
     player.Wins += playerStats.win
@@ -71,7 +75,3 @@ app.controller 'FifaController', ($scope, angularFire) ->
       "GoalsAgainst": playerStats.goalsAgainst
 
     $scope.players.push player
-
-  $(".modal").modal('hide')
-  $scope.home = {}
-  $scope.away = {}
