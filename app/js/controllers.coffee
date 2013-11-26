@@ -15,11 +15,14 @@ app.controller 'RankController', ($scope, angularFire) ->
   angularFire(ref, $scope, 'players')
 
 app.controller 'FifaController', ($scope, angularFire) ->
-  $scope.players = new Array()
-  $scope.matches = new Array()
+  $scope.players = []
+  $scope.matches = []
   ref = new Firebase("https://steamduck.firebaseio.com/fifa")
   angularFire(ref.child("players"),$scope,'players')
   angularFire(ref.child("matches"),$scope,'matches')
+  $scope.$watch 'matches', (newVal, oldVal) ->
+    unless Array.isArray newVal
+      $scope.matches []
 
   $scope.openModal = () ->
     $(".modal").modal('show')
