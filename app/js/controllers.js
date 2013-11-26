@@ -23,9 +23,8 @@
 
   app.controller('FifaController', function($scope, angularFire) {
     var addNewPlayer, addPlayerStats, ref;
-    $scope.newMatch;
-    $scope.players = [];
-    $scope.matches = [];
+    $scope.players = new Array();
+    $scope.matches = new Array();
     ref = new Firebase("https://steamduck.firebaseio.com/fifa");
     angularFire(ref.child("players"), $scope, 'players');
     angularFire(ref.child("matches"), $scope, 'matches');
