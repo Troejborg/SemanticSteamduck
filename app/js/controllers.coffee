@@ -64,7 +64,7 @@ app.controller 'FifaController', ($scope, angularFire) ->
   addPlayerStats = (player, playerStats) ->
     player.Draw += playerStats.draw
     player.Wins += playerStats.win
-    player.Loss += playerStats.loss
+    player.Losses += playerStats.loss
     player.GoalsFor +=  playerStats.goals
     player.GoalsAgainst +=  playerStats.goalsAgainst
 
@@ -73,7 +73,7 @@ app.controller 'FifaController', ($scope, angularFire) ->
       "PlayerName": playerStats.name,
       "Draw": playerStats.draw,
       "Wins": playerStats.win,
-      "Loss": playerStats.loss,
+      "Losses": playerStats.loss,
       "GoalsFor": playerStats.goals,
       "GoalsAgainst": playerStats.goalsAgainst
 

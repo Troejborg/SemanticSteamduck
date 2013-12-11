@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/angular-seed.iml" filepath="$PROJECT_DIR$/.idea/angular-seed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../webdev/semantic/examples/examples.iml" filepath="$PROJECT_DIR$/../webdev/semantic/examples/examples.iml" />
     </modules>
   </component>
 </project>

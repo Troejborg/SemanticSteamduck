@@ -80,7 +80,7 @@
     addPlayerStats = function(player, playerStats) {
       player.Draw += playerStats.draw;
       player.Wins += playerStats.win;
-      player.Loss += playerStats.loss;
+      player.Losses += playerStats.loss;
       player.GoalsFor += playerStats.goals;
       return player.GoalsAgainst += playerStats.goalsAgainst;
     };
@@ -90,7 +90,7 @@
         "PlayerName": playerStats.name,
         "Draw": playerStats.draw,
         "Wins": playerStats.win,
-        "Loss": playerStats.loss,
+        "Losses": playerStats.loss,
         "GoalsFor": playerStats.goals,
         "GoalsAgainst": playerStats.goalsAgainst
       };
